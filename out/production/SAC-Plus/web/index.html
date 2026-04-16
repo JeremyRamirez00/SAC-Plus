@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SAC-Plus - Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="login-container">
+    <h2>VALIDACIÓN DE USUARIO</h2>
+
+    <form action="/sacplus/login" method="post">
+        <div class="input-group">
+            <label>Usuario:</label>
+            <input type="text" name="usuario" placeholder="Ingrese usuario">
+        </div>
+
+        <div class="input-group">
+            <label>Contraseña:</label>
+            <input type="password" name="password" placeholder="Ingrese contraseña">
+        </div>
+
+        <button type="submit" class="btn-login">Ingresar</button>
+    </form>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
